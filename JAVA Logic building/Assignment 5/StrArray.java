@@ -1,3 +1,4 @@
+<<<<<<< HEAD:JAVA Logic building/Assignment 5/StrArray.java
 import java.util.Scanner;
 
 class StrArray{
@@ -18,4 +19,26 @@ class StrArray{
 		}
 		System.out.println();
 	}
+=======
+import java.util.Scanner;
+
+class StrArray{
+	public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+
+		String[] arr=new String[4];
+
+		System.out.println("Enter 4 strings:");
+		
+		for(int i=0;i<arr.length;i++){
+			arr[i]=sc.nextLine();
+		}
+
+		System.out.println("Entered string");
+		for(String str:arr){
+			System.out.println(str);
+		}
+		System.out.println();
+	}
+>>>>>>> 9719ac285f88c135575c0dbc4a5ccd84379d0f34:Assignment 5/StrArray.java
 }
